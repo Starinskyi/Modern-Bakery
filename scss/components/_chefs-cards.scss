@@ -1,0 +1,14 @@
+.chefs-items {
+  flex-basis: calc((100% - 30px) / 2);
+}
+
+.chef-photo {
+  border-radius: 4px 4px 4px 200px;
+  box-shadow: -16px 16px 0 0 var(--color-primery-light),
+    -16px 16px 0 2px var(--color-secondary-dark);
+}
+
+.chefs-card {
+  display: flex;
+  gap: 30px;
+}
